@@ -3,13 +3,11 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="fetch150zy"
 
 alias cls='clear'
-alias ls='lsd'
-alias ll='lsd -l'
-alias la='lsd -a'
-alias lla='lsd -la'
-alias lt='lsd --tree'
-# for esp32
-alias get_idf='. $HOME/esp/esp-idf/export.sh'
+# alias ls='lsd'
+# alias ll='lsd -l'
+# alias la='lsd -a'
+# alias lla='lsd -la'
+# alias lt='lsd --tree'
 
 # mcfly (shell history)
 alias shs='mcfly search'
@@ -20,7 +18,7 @@ export MCFLY_RESULTS=50
 export MCFLY_DELETE_WITHOUT_CONFIRM=true
 export MCFLY_DISABLE_MENU=TRUE
 export MCFLY_RESULTS_SORT=LAST_RUN
-export MCFLY_PROMPT="➭"
+export MCFLY_PROMPT="# "
 
 alias check='bat'
 alias picture='display'
@@ -59,8 +57,6 @@ source $ZSH/oh-my-zsh.sh
 export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_US.UTF-8
 
-export NEMU_HOME=/home/fetch150zy/Projects/vscode/ics/ics2022/nemu
-export AM_HOME=/home/fetch150zy/Projects/vscode/ics/ics2022/abstract-machine
 
 export GOPATH=$HOME/go
 export GOROOT=/usr/lib/go

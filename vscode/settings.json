@@ -1,0 +1,544 @@
+{
+
+    //! theme
+
+    // color theme
+
+    "workbench.colorTheme": "Everforest Light",
+
+    "material-icon-theme.folders.color": "#42a5f5",
+
+    "material-icon-theme.saturation": 0.8,
+
+
+
+
+
+    //! font
+
+    // editor font
+
+    "editor.fontFamily": "'ComicShannsMono Nerd Font Mono'",
+
+    "editor.fontWeight": "520",
+
+	"editor.fontSize": 18,
+
+    // error lens font
+
+	"editor.codeLensFontFamily": "'ComicShannsMono Nerd Font Mono'",
+
+	"editor.codeLensFontSize": 14,
+
+    // terminal font
+
+    "terminal.integrated.fontFamily": "'ComicShannsMono Nerd Font Mono', 'JetbrainsMono Nerd Font', 'Cascadia Code', 'DroidSansMono Nerd Font'",
+
+    "terminal.integrated.fontSize": 17,
+
+	"terminal.integrated.fontWeight": "bold",
+
+    "terminal.integrated.lineHeight": 0.8,
+
+
+
+
+
+    //! leetcode
+
+    "leetcode.endpoint": "leetcode-cn",
+
+    "leetcode.workspaceFolder": "/home/fetch150zy/Projects/Vscode/algorithm/leetcode/linked-list",
+
+    "leetcode.hideSolved": false,
+
+    "leetcode.hint.commentDescription": false,
+
+    "leetcode.hint.setDefaultLanguage": false,
+
+    "leetcode.hint.configWebviewMarkdown": false,
+
+    "leetcode.hint.commandShortcut": false,
+
+
+
+
+
+    //! language
+
+    // for rust
+
+    "rust-analyzer.inlayHints.renderColons": false,
+
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+
+    "editor.parameterHints.enabled": false,
+
+    "workbench.editor.languageDetectionHints": {
+
+        "untitledEditors": false,
+
+        "notebookEditors": false
+
+    },
+
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+
+
+
+    // for matlab
+
+    "matlab.matlabpath": "/usr/bin/matlab",
+
+    "matlab.mlintpath": "/home/fetch150zy/matlab/bin/glnxa64/mlint",
+
+
+
+    // for python
+
+    "python.analysis.inlayHints.callArgumentNames": true,
+
+    "python.analysis.inlayHints.functionReturnTypes": true,
+
+    "python.analysis.inlayHints.pytestParameters": true,
+
+    "python.analysis.inlayHints.variableTypes": true,
+
+
+
+    
+
+    //! for better comments
+
+    "better-comments.tags": [
+
+        {
+
+            "tag": "!",
+
+            "color": "#FF2D00",
+
+            "strikethrough": false,
+
+            "underline": false,
+
+            "backgroundColor": "transparent",
+
+            "bold": false,
+
+            "italic": false
+
+        },
+
+        {
+
+            "tag": "?",
+
+            "color": "#3498DB",
+
+            "strikethrough": false,
+
+            "underline": false,
+
+            "backgroundColor": "transparent",
+
+            "bold": false,
+
+            "italic": false
+
+        },
+
+        {
+
+            "tag": "//",
+
+            "color": "#474747",
+
+            "strikethrough": true,
+
+            "underline": false,
+
+            "backgroundColor": "transparent",
+
+            "bold": false,
+
+            "italic": false
+
+        },
+
+        {
+
+            "tag": "todo",
+
+            "color": "#FF8C00",
+
+            "strikethrough": false,
+
+            "underline": false,
+
+            "backgroundColor": "transparent",
+
+            "bold": false,
+
+            "italic": false
+
+        },
+
+        {
+
+            "tag": "*",
+
+            "color": "#98C379",
+
+            "strikethrough": false,
+
+            "underline": false,
+
+            "backgroundColor": "transparent",
+
+            "bold": false,
+
+            "italic": false
+
+        }
+
+    ],
+
+
+
+
+
+    //! for esp
+
+    "idf.espIdfPath": "/home/fetch150zy/esp/esp-idf",
+
+    "idf.toolsPath": "/home/fetch150zy/.espressif",
+
+    "idf.customExtraPaths": "/home/fetch150zy/.espressif/tools/xtensa-esp-elf-gdb/11.2_20220823/xtensa-esp-elf-gdb/bin:/home/fetch150zy/.espressif/tools/riscv32-esp-elf-gdb/11.2_20220823/riscv32-esp-elf-gdb/bin:/home/fetch150zy/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin:/home/fetch150zy/.espressif/tools/xtensa-esp32s2-elf/esp-2022r1-11.2.0/xtensa-esp32s2-elf/bin:/home/fetch150zy/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin:/home/fetch150zy/.espressif/tools/riscv32-esp-elf/esp-2022r1-11.2.0/riscv32-esp-elf/bin:/home/fetch150zy/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/fetch150zy/.espressif/tools/openocd-esp32/v0.11.0-esp32-20221026/openocd-esp32/bin:/home/fetch150zy/.espressif/tools/esp-rom-elfs/20220823",
+
+    "idf.customExtraVars": {
+
+        "OPENOCD_SCRIPTS": "/home/fetch150zy/.espressif/tools/openocd-esp32/v0.11.0-esp32-20221026/openocd-esp32/share/openocd/scripts",
+
+        "ESP_ROM_ELF_DIR": "/home/fetch150zy/.espressif/tools/esp-rom-elfs/20220823/"
+
+    },
+
+    "idf.gitPath": "/usr/bin/git",
+
+    "idf.listDfuDevices": [],
+
+    "idf.pythonBinPath": "/home/fetch150zy/.espressif/python_env/idf5.0_py3.10_env/bin/python",
+
+
+
+    
+
+    //! others
+
+    "editor.stickyScroll.enabled": true,
+
+    "workbench.tree.renderIndentGuides": "none",
+
+    "editor.guides.indentation": false,
+
+    // suggests
+
+    "editor.inlineSuggest.enabled": false,
+
+    // hints
+
+    "editor.inlayHints.enabled": "on",
+
+    // cursor style
+
+    "editor.cursorStyle": "block-outline",
+
+    "editor.cursorBlinking": "expand",
+
+    // for editor
+
+    "editor.smoothScrolling": true,
+
+    "editor.tabCompletion": "on",
+
+    "editor.fontLigatures": true,
+
+    "editor.insertSpaces": true,
+
+    "editor.copyWithSyntaxHighlighting": true,
+
+    "editor.stickyTabStops": true,
+
+    "editor.wordBasedSuggestions": "off",
+
+    "editor.linkedEditing": true,
+
+    "editor.wordWrap": "off",
+
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    "editor.renderControlCharacters": true,
+
+    // for terminal
+
+    "terminal.integrated.cursorBlinking": true,
+
+    "terminal.integrated.rightClickBehavior": "default",
+
+    // encode
+
+    "files.autoGuessEncoding": true,
+
+    // auto save
+
+    "files.autoSave": "onFocusChange",
+
+
+
+    "workbench.list.smoothScrolling": true,
+
+    "workbench.editor.enablePreview": false,
+
+    "workbench.editor.wrapTabs": true, 
+
+    // confirm when delete file or folder
+
+    "explorer.confirmDelete": false,
+
+    "explorer.confirmDragAndDrop": false,
+
+
+
+    "search.followSymlinks": true,
+
+
+
+    "window.menuBarVisibility": "visible",
+
+    "window.dialogStyle": "custom",
+
+
+
+    "debug.internalConsoleOptions": "openOnSessionStart",
+
+    "debug.showBreakpointsInOverviewRuler": true,
+
+    "debug.toolBarLocation": "docked",
+
+    "debug.saveBeforeStart": "nonUntitledEditorsInActiveGroup",
+
+    "debug.onTaskErrors": "showErrors",
+
+    // for untrusted files
+
+    "security.workspace.trust.untrustedFiles": "newWindow",
+
+    // project manager
+
+    "projectManager.git.baseFolders": ["/home/fetch150zy/Repo"],
+
+    "projectManager.sortList": "Recent",
+
+    "projectManager.git.maxDepthRecursion": 2,
+
+
+
+    "editor.lineNumbers": "relative",
+
+    "zenMode.hideLineNumbers": false,
+
+    
+
+    // "workbench.settings.editor": "json",
+
+    "vim.leader": "<space>",
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+
+        // show hover
+
+        {
+
+            "before": ["<leader>", "h"],
+
+            "commands": ["editor.action.showHover"]
+
+        },
+
+        // show definition
+
+        {
+
+            "before": ["<leader>", "j"],
+
+            "commands": ["editor.action.goToDeclaration"]
+
+        },
+
+        // show references
+
+        {
+
+            "before": ["<leader>", "r"],
+
+            "commands": ["editor.action.referenceSearch.trigger"]
+
+        },
+
+        // show problems
+
+        {
+
+            "before": ["[", "t"],
+
+            "commands": ["editor.action.marker.prevInFiles"]
+
+        },
+
+        {
+
+            "before": ["]", "t"],
+
+            "commands": ["editor.action.marker.nextInFiles"]
+
+        }
+
+    ],
+
+
+
+	// Causes the debug view to automatically appear when a breakpoint is hit. This
+
+	// setting is global and not configurable per-language.
+
+	"debug.openDebug": "openOnDebugBreak",
+
+
+
+	"[dart]": {
+
+		// Automatically format code on save and during typing of certain characters
+
+		// (like `;` and `}`).
+
+		"editor.formatOnSave": true,
+
+		"editor.formatOnType": true,
+
+
+
+		// Draw a guide line at 80 characters, where Dart's formatting will wrap code.
+
+		// "editor.rulers": [80],
+
+
+
+		// Disables built-in highlighting of words that match your selection. Without
+
+		// this, all instances of the selected text will be highlighted, interfering
+
+		// with Dart's ability to highlight only exact references to the selected variable.
+
+		"editor.selectionHighlight": false,
+
+
+
+		// By default, VS Code will pre-select the most recently used item from code
+
+		// completion. This is usually not the most relevant item.
+
+		//
+
+		// "first" will always select top item
+
+		// "recentlyUsedByPrefix" will filter the recently used items based on the
+
+		//     text immediately preceding where completion was invoked.
+
+		"editor.suggestSelection": "first",
+
+
+
+		// Allows pressing <TAB> to complete snippets such as `for` even when the
+
+		// completion list is not visible.
+
+		"editor.tabCompletion": "onlySnippets",
+
+
+
+		// By default, VS Code will populate code completion with words found in the
+
+		// current file when a language service does not provide its own completions.
+
+		// This results in code completion suggesting words when editing comments and
+
+		// strings. This setting will prevent that.
+
+		"editor.wordBasedSuggestions": "off"
+
+    },
+
+    "workbench.iconTheme": "material-icon-theme",
+
+    "go.inlayHints.assignVariableTypes": true,
+
+    "go.inferGopath": true,
+
+    "go.inlayHints.compositeLiteralFields": true,
+
+    "go.inlayHints.compositeLiteralTypes": true,
+
+    "go.inlayHints.constantValues": true,
+
+    "go.inlayHints.functionTypeParameters": true,
+
+    "go.inlayHints.parameterNames": true,
+
+    "go.installDependenciesWhenBuilding": true,
+
+    "go.inlayHints.rangeVariableTypes": true,
+
+    "window.zoomLevel": 1,
+
+    "workbench.productIconTheme": "material-product-icons",
+
+    "files.watcherExclude": {
+
+        "**/.bloop": true,
+
+        "**/.metals": true,
+
+        "**/.ammonite": true
+
+    },
+
+    "verilog.ctags.path": "/usr/bin/ctags",
+
+    "verilog.linting.linter": "iverilog",
+
+    "verilog.linting.iverilog.arguments": "-i",
+
+    "editor.tabSize": 2,
+
+    "files.associations": {
+
+        "*.inc": "cpp"
+
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+
+
+
+    // "vscode_custom_css.imports": [
+
+    //     "file:///home/fetch150zy/index.js"
+
+    // ]
+
+}

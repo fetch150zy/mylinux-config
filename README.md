@@ -1,1 +1,1 @@
-## Some config and script on my own manjaro linux
+## Some config and script on my own archlinux
